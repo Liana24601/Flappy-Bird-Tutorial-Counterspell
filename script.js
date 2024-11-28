@@ -3,7 +3,6 @@ const ctx = canvas.getContext('2d');
 const img = new Image();
 img.src = "https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png";
 
-// general settings
 let gamePlaying = false;
 const gravity = .5;
 const speed = 6.2;
